@@ -7,9 +7,9 @@ import os,io
 import streamlit as st
 from dotenv import load_dotenv
 import time
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
+# import pandas as pd
+# import numpy as np
+# import matplotlib.pyplot as plt
 
 load_dotenv(override=True)
 GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
